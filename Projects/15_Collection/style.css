@@ -1,0 +1,121 @@
+
+body {
+	font-family: 'helvetica', serif;
+}
+
+a {
+	
+	color: black;
+	text-decoration: none;
+
+}
+
+
+.highlight{
+	background-color: transparent;
+	border-radius: 0%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -167px;
+	margin-left: -168px;
+	width: 30%;
+	height: 30vw;
+	z-index: 30;
+	cursor: cell;
+}
+.highlight:hover {
+	background-color: red;
+    border-radius: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -167;
+    margin-left: -168;
+    width: 30%;
+    height: 30vw;
+    z-index: 30;
+    mix-blend-mode: multiply;
+
+}
+
+a:hover {
+	background-color: yellow;
+	color: black;
+	font-size: 9em;
+	background-blend-mode: multiply;
+
+}
+
+nav {    
+	position: fixed;
+    top: 5px;
+    left: 5px;
+    font-size: 1em;
+    font-family: 'helvetica', serif;
+    z-index: 10;
+	}
+
+.big{
+	margin:-8px;
+}
+
+#main {    
+	position: fixed;
+    top: 5px;
+    left: 5px;
+    font-size: 5em;
+    font-family: 'helvetica', serif;
+    z-index: 10;
+	}
+
+#main:hover {
+	background-color: yellow;
+}
+
+img {
+	transition: all .005s;
+	cursor: move;}
+
+.basic {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -168px;
+    margin-left: -168px;
+    width: 30%;
+    /*transition: all 2s;*/
+}
+.grid {
+	
+	float: left;
+	margin: auto;
+	top: auto;
+	left: auto;
+	position: relative;
+	/*transition: all 2s;*/
+}
+
+
+
+.pandora {
+	margin-left: 55px;
+}
+
+
+  .hello{
+	margin-left: 55px;
+    width: 1000px;
+    position: fixed;
+    left: 14%;
+    top: 0%;
+}
+
+.pstr {
+	max-width: 200px;
+    border: 1px dotted #929699;
+	position: absolute;}
+
+.shlong {height: 96vh;
+float: left;
+cursor: ew-resize;}

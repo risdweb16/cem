@@ -1,0 +1,66 @@
+html {
+
+	cursor: url(cursor.svg), default;
+}
+
+
+/*#custom-cursor{
+    width: 100px;
+  	height: 100px;
+  	position: absolute;
+    background-size: 100px 100px;
+    background-image: url(cursor.svg);
+}*/
+
+body{
+
+	font-family: "PT Serif";
+	font-weight: bold;
+	font-size: 4vw;
+	
+}
+
+.thin {font-weight: normal;}
+
+#clickpro {
+
+	border-bottom: .25vw dotted black;
+}
+
+
+
+#clickpro:hover {
+	background-color: rgb(255, 255, 153);
+	cursor: url(select-01.png);
+}
+
+
+#clickex:hover {
+	background-color: rgb(255, 255, 153);
+	cursor: url(select-01.png);
+}
+
+
+#clickex {
+
+	border-bottom: .25vw dotted black;
+}
+
+a {
+
+	text-decoration: none;
+	color: black;
+	cursor: url(select-01.png), url(select.svg);
+}
+
+a:hover {
+
+	background-color: rgb(255, 255, 153);
+	cursor: url(select.svg);
+
+}
+
+a:active {
+
+	background-color: tomato;
+}
